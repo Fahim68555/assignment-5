@@ -17,6 +17,10 @@ forOtherId ('completed3');
 forOtherId ('completed4');
 forOtherId ('completed5');
 forOtherId ('completed6');
+document.getElementById('history-data').style.display ='none';
 
+document.getElementById('clear-history').addEventListener('click',function(){
+document.getElementById('history-data').style.display ='none';
+})
 
 
