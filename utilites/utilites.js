@@ -32,6 +32,8 @@ function forOtherId (id){
         seconds = seconds < 10 ? '0' + seconds : seconds;
         newParagraph.innerText= ("You have Complete The Task Add Dark Mode at" + hours + ":" + minutes + ":" + seconds + " " + ampm);
         document.getElementById('history-data').style.display ='block';
-       
+        
 })
 }
+
+
