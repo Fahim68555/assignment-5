@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment- 5 </title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#F4F7FF]">
+    <header class="w-4/5 mx-auto">
+        <nav class="py-6">
+            <div class="navbar bg-base-100 shadow-sm rounded-2xl">
+                <div class="flex-1">
+                    <div class="flex ml-6">
+                        <img src="./A5-Dev-Board/assets/logo.png" alt="">
+                        <a class="btn btn-ghost text-4xl font-light mt-1">Dev <span
+                                class="font-bold text-4xl">Board</span></a>
+                    </div>
+                </div>
+
+                <div class="flex gap-7 mr-6">
+                    <div class=" bg-[#F4F7FF] p-6 rounded-e-2xl rounded-s-2xl ">
+                        <div class="flex gap-2">
+                            <div>
+                                <img class="mt-1 mr-2" src="./A5-Dev-Board/assets/checkbox.png" alt="">
+                            </div>
+                            <div>
+                                <h1 class=" font-bold text-3xl" id="add">23</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded-full bg-[#F4F7FF] p-3 m-2 ">
+                        <img id="background-change-btn" alt="Tailwind CSS Navbar component" src="./A5-Dev-Board/assets/theme-btn.png" />
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <!-- mein section -->
+    <section class="w-4/5 mx-auto pb-16 ">
+        <div class="grid grid-cols-4  ">
+            <div class="col-span-3 bg-white mt-5 shadow-md rounded-2xl ">
+                <section class="grid grid-cols-4 mt-6 ">
+                    <!-- Task section-->
+                    <div class="flex  bg-[#F4F7FF] w-64 h-32 items-center shadow-md rounded-xl mx-6">
+                        <div class="bg-white rounded-full p-4 ml-6 "><img src="./A5-Dev-Board/assets/checkbox.png" alt="">
+                        </div>
+                        <div class="ml-6  ">
+                            <p class=" font-medium text-[#0000009f] ">Task Assigned</p>
+                            <h3 class="font-bold text-3xl" id="task-assigend">06</h3>
+                        </div>
+                    </div>
+                    <!-- Discover section -->
+                    <div
+                        class="col-span-2 shadow-sm  bg-linear-to-l from-[#9BA8F8] to-[#6C7FFA] rounded-xl flex items-center mx-6">
+                        <div class="w-20 h-20 ml-10">
+                            <img src="./A5-Dev-Board/assets/board.png" alt="">
+                        </div>
+                        <h1 class="text-white font-medium text-2xl ml-6">Discover Something <br>New Today!</h1>
+                    </div>
+                    <!-- Date section -->
+                    <div>
+                        <div class="flex  bg-[#F4F7FF] w-64 h-32 items-center shadow-md rounded-xl mr-6">
+                            <div class="bg-white rounded-full p-5 ml-6"><img src="./A5-Dev-Board/assets/calender.png"
+                                    alt=""></div>
+                            <div class="ml-5">
+                                <h3 class="font-medium text-3xl" id="update-date">
+                                 </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <section>
+<div class="grid grid-cols-3 mt-16 mx-6 gap-9 mb-9 ">
+   
+    <div class="shadow-md bg-[#F4F7FF] rounded-2xl">
+        <button class="rounded-xl bg-white border-none mt-6 ml-6 w-36 h-11 text-xl">ShopEase</button>
+        <h4 class="font-medium text-2xl ml-6 mt-4">Fix Mobile Button Issue</h4>
+        <div class="mt-4 bg-white rounded-xl mx-6 w-72 h-24"><p class="p-4 text-[#0f0f0fbb]">Debug using Chrome <br> DevTools, check for overlappin</p></div>
+        <div class="flex ml-6 mt-4 mb-5 ">
+            <div><p class="text[#00303C] ">Deadline</p>
+            <h4 class="text-xl font-normal">21 March 2025</h4></div>
+            <div><button class="btn btn-primary bg-[#3752FD] border-none font-medium text-xl rounded-xl mt-4 w-36 h-11 ml-3 text-center" id="completed1" >Completed</button></div>
+        </div>
+    </div>
+    <div class="shadow-md bg-[#F4F7FF] rounded-2xl">
+        <button class="rounded-xl bg-white border-none mt-6 ml-6 w-36 h-11 text-xl">CloudSync</button>
+        <h4 class="font-medium text-2xl ml-6 mt-4">Add Dark Mode</h4>
+        <div class="mt-4 bg-white rounded-xl mx-6 w-72 h-24"><p class="p-4 text-[#0f0f0fbb]">Store the user's preference in localStorage, update CSS varia</p></div>
+        <div class="flex ml-6 mt-4 mb-5 ">
+            <div><p class="text[#00303C] font-">Deadline</p>
+            <h4 class="text-xl font-normal">21 March 2025</h4></div>
+            <div><button class="btn btn-primary bg-[#3752FD] border-none font-medium text-xl rounded-xl mt-4 w-36 h-11 ml-3 text-center"  id="completed2"  >Completed</button></div>
+        </div>
+    </div>
+
+    <div class="shadow-md bg-[#F4F7FF] rounded-2xl">
+        <button class="rounded-xl bg-white border-none mt-6 ml-6 w-36 h-11 text-xl">SwiftPay</button>
+        <h4 class="font-medium text-2xl ml-6 mt-4">Optimize  Home page</h4>
+        <div class="mt-4 bg-white rounded-xl mx-6 w-72 h-24"><p class="p-4 text-[#0f0f0fbb]">Debug using Chrome <br> DevTools, check for overlappin</p></div>
+        <div class="flex ml-6 mt-4 mb-5">
+            <div><p class="text[#00303C] font-">Deadline</p>
+            <h4 class="text-xl font-normal">21 March 2025</h4></div>
+            <div><button class="btn btn-primary bg-[#3752FD] border-none font-medium text-xl rounded-xl mt-4 w-36 h-11 ml-3 text-center"  id="completed3"  >Completed</button></div>
+        </div>
+    </div>
+
+    <div class="shadow-md bg-[#F4F7FF] rounded-2xl">
+        <button class="rounded-xl bg-white border-none mt-6 ml-6 w-36 h-11 text-xl">Meta</button>
+        <h4 class="font-medium text-2xl ml-6 mt-4">Add new emoji 🤲</h4>
+        <div class="mt-4 bg-white rounded-xl mx-6 w-72 h-24"><p class="p-4 text-[#0f0f0fbb]">Debug using Chrome <br> DevTools, check for overlappin</p></div>
+        <div class="flex ml-6 mt-4 mb-5">
+            <div><p class="text[#00303C] font-">Deadline</p>
+            <h4 class="text-xl font-normal">21 March 2025</h4></div>
+            <div><button class="btn btn-primary bg-[#3752FD] border-none font-medium text-xl rounded-xl mt-4 w-36 h-11 ml-3 text-center" id="completed4"  >Completed</button></div>
+        </div>
+    </div>
+
+    <div class="shadow-md bg-[#F4F7FF] rounded-2xl">
+        <button class="rounded-xl bg-white border-none mt-6 ml-6 w-36 h-11 text-xl">Google LLC</button>
+        <h4 class="font-medium text-2xl ml-6 mt-4">Integrate OpenAI API</h4>
+        <div class="mt-4 bg-white rounded-xl mx-6 w-72 h-24"><p class="p-4 text-[#0f0f0fbb]">Debug using Chrome <br> DevTools, check for overlappin</p></div>
+        <div class="flex ml-6 mt-4 mb-5">
+            <div><p class="text[#00303C] font-">Deadline</p>
+            <h4 class="text-xl font-normal">21 March 2025</h4></div>
+            <div><button class="btn btn-primary bg-[#3752FD] border-none font-medium text-xl rounded-xl mt-4 w-36 h-11 ml-3 text-center"  id="completed5"  >Completed</button></div>
+        </div>
+    </div>
+
+    <div class="shadow-md bg-[#F4F7FF] rounded-2xl">
+        <button class="rounded-xl bg-white border-none mt-6 ml-6 w-36 h-11 text-xl">Glassdoar</button>
+        <h4 class="font-medium text-2xl ml-6 mt-4">Improve Job searching </h4>
+        <div class="mt-4 bg-white rounded-xl mx-6 w-72 h-24"><p class="p-4 text-[#0f0f0fbb]">Debug using Chrome <br> DevTools, check for overlappin</p></div>
+        <div class="flex ml-6 mt-4 mb-5">
+            <div><p class="text[#00303C] font-">Deadline</p>
+            <h4 class="text-xl font-normal">21 March 2025</h4></div>
+            <div><button class="btn btn-primary bg-[#3752FD] border-none font-medium text-xl rounded-xl mt-4 w-36 h-11 ml-3 text-center" id="completed6"  >Completed</button></div>
+        </div>
+    </div>
+</div>
+                </section>
+            </div>
+            <!-- Activity Log section -->
+            <div class=" bg-white mt-5 shadow-md rounded-2xl ml-6 text-center">
+                <div class="flex mt-6 ml-24 gap-4">
+                    <div>
+                        <img src="./A5-Dev-Board/assets/activity.png" alt="">
+                    </div>
+                    <p class="font-medium text-xl ">Activity Log</p>
+                </div>
+                <div><button class="btn btn-primary bg-[#3752FD] border-none font-medium mt-4 w-32 text-sm h-11 rounded-xl">Clear
+                        History</button>
+                    <br>
+                <br>
+            <hr class="shadow-md text-slate-400  ">
+        </div></div>
+        </div>
+        
+        <div class="">
+<div class="badge badge-dash badge-info">Info</div>
+        </div>
+    </section>
+    <script src="utilites/utilites.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
