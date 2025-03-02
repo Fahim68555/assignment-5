@@ -18,21 +18,23 @@ function forOtherId (id){
          const add =   convertedInnerText('add');
          const sum2 = add + 1;
          setInnerText('add',sum2);
-         const history = document.getElementById('history-data')
-        const newParagraph = document.createElement('p');
-        history.appendChild(newParagraph);
-        let currentDate = new Date();
-        let hours = currentDate.getHours();
-        let minutes = currentDate.getMinutes();
-        let seconds = currentDate.getSeconds();
-        let ampm = hours >= 12 ? 'PM' : 'AM';
-        hours = hours % 12; 
-        hours = hours ? hours : 12;
-        minutes = minutes < 10 ? '0' + minutes : minutes;
-        seconds = seconds < 10 ? '0' + seconds : seconds;
-        newParagraph.innerText= ("You have Complete The Task Add Dark Mode at" + hours + ":" + minutes + ":" + seconds + " " + ampm);
+
+         const container = document.getElementById("history-data");
+         const newParagraph = document.createElement("p");
+         container.append(newParagraph);
+         let currentDate = new Date();
+         let hours = currentDate.getHours();
+         let minutes = currentDate.getMinutes();
+         let seconds = currentDate.getSeconds();
+         let amPm = hours >= 12 ? 'PM' : 'AM';
+         hours = hours % 12; 
+         hours = hours ? hours : 12;
+         minutes = minutes < 10 ? '0' + minutes : minutes;
+         seconds = seconds < 10 ? '0' + seconds : seconds;
+         newParagraph.innerText= ("You have Complete The Task Add Dark Mode at" + hours + ":" + minutes + ":" + seconds + " " + amPm)
+      
         document.getElementById('history-data').style.display ='block';
-        
+        document.getElementById(id).disabled = true;
 })
 }
 

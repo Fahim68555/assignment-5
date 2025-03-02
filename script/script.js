@@ -15,32 +15,12 @@ function getRandomRGB() {
 function changeRGBColor() {
 document.body.style.backgroundColor = getRandomRGB();
 }
-
 forOtherId ('completed1')
 forOtherId ('completed2');
 forOtherId ('completed3');
 forOtherId ('completed4');
 forOtherId ('completed5');
 forOtherId ('completed6');
-
-function disableButton() {
-    document.getElementById("completed1").disabled = true;
-}
-function disableButton2() {
-    document.getElementById("completed2").disabled = true;
-}
-function disableButton3() {
-    document.getElementById("completed3").disabled = true;
-}
-function disableButton4() {
-    document.getElementById("completed4").disabled = true;
-}
-function disableButton5() {
-    document.getElementById("completed5").disabled = true;
-}
-function disableButton6() {
-    document.getElementById("completed6").disabled = true;
-}
 
 document.getElementById('history-data').style.display ='none';
 
