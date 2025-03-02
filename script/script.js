@@ -21,6 +21,9 @@ document.getElementById('history-data').style.display ='none';
 
 document.getElementById('clear-history').addEventListener('click',function(){
 document.getElementById('history-data').style.display ='none';
-})
+});
 
+document.getElementById('question-btn').addEventListener('click',function(){
+    window.location.href ="index2.html"
+});
 
